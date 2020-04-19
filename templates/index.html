@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+</head>
+<body>
+    <h1>Home Page!</h1>
+    {% for x in range (20) %}
+        {% if x % 2==0 %}
+            <p>{{x}}</p>
+        {% endif %}
+    {% endfor %}
+    <p>{{content}}</p>
+    <p>{{var}}</p>
+</body>
+</html>
